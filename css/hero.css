@@ -1,0 +1,23 @@
+.hero__wrapper {
+  
+}
+.hero {
+    background-image: url('../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15rem 0;
+    text-align: left;
+}
+.hero .title {
+    background-color: var(--first-brand-color);
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-transform: capitalize;
+}
+@media screen and (min-width: 1024px) {
+
+    .hero .title {
+        padding: 7rem 4rem;
+    }
+}
